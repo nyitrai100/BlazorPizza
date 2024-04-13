@@ -20,3 +20,4 @@ public class SpecialsController : Controller
         return (await _db.Specials.ToListAsync()).OrderByDescending(s => s.BasePrice).ToList();
     }
 }
+

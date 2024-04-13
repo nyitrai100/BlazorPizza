@@ -1,5 +1,6 @@
 namespace BlazingPizza;
 
+
 public class OrderState
 {
     public bool ShowingConfigureDialog { get; private set; }
@@ -42,5 +43,6 @@ public class OrderState
     public void ResetOrder()
     {
         Order = new Order();
-    }
+    }    
 }
+
